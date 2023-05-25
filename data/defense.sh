@@ -1,0 +1,7 @@
+DATA=$1
+CKPT=$2
+DEFENCE=$3
+THRESHOLD=$4
+TOPK=$5
+
+python imbert_grad.py $DATA $CKPT $DEFENCE $THRESHOLD $TOPK
